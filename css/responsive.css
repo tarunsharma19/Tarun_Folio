@@ -153,6 +153,8 @@ NB: This is the responsive stylesheet of this theme.
 
   .about-text-left .socials {
     text-align: center;
+    letter-spacing: 1px;
+    padding: 0 0 0 0;
   }
 
   .about-area img {
