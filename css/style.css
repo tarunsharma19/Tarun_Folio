@@ -624,6 +624,15 @@ canvas {
 
 /*---------------7. Services area Starts--------------*/
 
+.single-services:hover .services-icon i {
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+}
+
 .resume-area {
   background-color: #0f0f0f;
 }

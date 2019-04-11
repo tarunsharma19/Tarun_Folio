@@ -13,7 +13,12 @@ NB: This is the responsive stylesheet of this theme.
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 }
 
+.services-area {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /* Tablet Layout: 768px. */
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .section-padding {
     padding: 35px 0;
@@ -53,6 +58,39 @@ NB: This is the responsive stylesheet of this theme.
 
   .sticky_navigation .navbar-brand {
     line-height: 45px;
+  }
+
+  .about-text-left {
+    margin-top: 20px;
+    width: auto;
+  }
+
+  .about-text-left h2 {
+    text-align: center;
+  }
+
+  .about-text-left h3 {
+    text-align: center;
+  }
+
+  .about-text-left p {
+    text-align: center;
+  }
+
+  .about-text-left a {
+    display: block;
+    text-align: center;
+    float: none;
+  }
+
+  .about-text-left .socials {
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 0 0 0 0;
+  }
+
+  .about-area img {
+    width: 100%;
   }
 
   .socials {
