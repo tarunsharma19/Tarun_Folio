@@ -116,29 +116,29 @@ $(document).ready(function () {
 		midClick: true
 	});
 	
-	//**** testimonial carousel
+	//************* Owl Carousel
 
-	$("#testimonial-carousel").owlCarousel({
-		navigation: false,
-		pagination: true,
-		slideSpeed: 800,
-		paginationSpeed: 800,
-		smartSpeed: 500,
-		autoplay: true,
-		singleItem: true,
-		loop: true,
-		responsive:{
-			0:{
-				items:1
-			},
-			680:{
-				items:1
-			},
-			1000:{
-				items:1
-			}
-		}
-	});
+    $("#testimonial-slider").owlCarousel({
+        items: 1,
+
+        itemsDesktop: [1000, 1],
+
+        itemsDesktopSmall: [979, 1],
+
+        itemsTablet: [768, 1],
+
+        pagination: true,
+
+        navigation: false,
+
+        slideSpeed: 1000,
+
+        singleItem: false,
+
+        autoplay: true,
+
+        loop: true
+    });
 
 	//***********YTplayer js
 
